@@ -6,35 +6,17 @@ Converted CSV data to pandas data framed. Cleaned Tabular data by removing all N
 Clenaed images data 
 Using os to access the images folder then resizing every image and saved new edited images in new processed images folder. 
 
-Code for images: 
-  class prepare_image():
-
-        def download_images(self):
+Milestones 3 & 4 
 
 
-            image_folder = "images/"
-            processed_images_folder="processed_images/"
+Cleaned csv dtabular data that has been converted to pandas data frame was split into feattures and labels. It was also further cleaned with the dataframe containing only numerical data.
 
+Features and Labels are split into training, test and validation sets of data. All features where then normalised using Scaler from sklearn preprocessing.
 
-            for root,dir,files in os.walk(image_folder):
-                for file in files:
-                    
-                
-                    filepath = os.path.join(root,file) 
+the following model's hyperparamenters where tuned with the root mean squared error perfomance metric used to evalute the best models(Models, hyperparameters and perfomance metrics were saved in json and joblib files):
+DecisionTreeRegressor
+RandomForestRegressor
+GradientBoostingRegressor & SGDregressor.
 
-                    img = Image.open(filepath)
-                    
-
-                    width, height = img.size
-                    new_height = 500
-                    new_width = 500
-
-
-                    resized_img = img.resize((new_width, new_height))
-
-
-                    target_location = os.path.join(processed_images_folder,dir[0])
-                    if not os.path.exists( target_location ):
-                        os.makedirs(target_location)
-                        resized_img.save(target_location + file +"_processed.png")
-
+All models could be further fine tuned with better hyperparameters and or stacking and blending to improve accuracy. 
+Based on the perfomance metrics the Gradient Boosting Regressor was used for predictions
