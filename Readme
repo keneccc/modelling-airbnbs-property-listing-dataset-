@@ -20,3 +20,5 @@ GradientBoostingRegressor & SGDregressor.
 
 All models could be further fine tuned with better hyperparameters and or stacking and blending to improve accuracy. 
 Based on the perfomance metrics the Gradient Boosting Regressor was used for predictions
+
+Created Classifier model and set eraly stopping as true in order to prevent overfitting, model hyperparmeters wer also fine tuned after being evaluated using accuracy
