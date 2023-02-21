@@ -22,3 +22,6 @@ All models could be further fine tuned with better hyperparameters and or stacki
 Based on the perfomance metrics the Gradient Boosting Regressor was used for predictions
 
 Created Classifier model and set eraly stopping as true in order to prevent overfitting, model hyperparmeters wer also fine tuned after being evaluated using accuracy
+
+Developed neural network regressor model and fine tuned model using learning rate, layer width of neural network, model depth and the chosen optimiser. 
+Training runs were monitored and observed using Tensorboard. 
