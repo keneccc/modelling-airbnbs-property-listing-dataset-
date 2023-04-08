@@ -1,12 +1,14 @@
-Milestones 1 & 2 
+#Milestones 1  
 
 Cleaned csv tabular data table 
 Converted CSV data to pandas data framed. Cleaned Tabular data by removing all Nan values from all relevant clomuns 
 
+
+# Milestone 2 
 Clenaed images data 
 Using os to access the images folder then resizing every image and saved new edited images in new processed images folder. 
 
-Milestones 3 & 4 
+# Milestones 3  
 
 
 Cleaned csv dtabular data that has been converted to pandas data frame was split into feattures and labels. It was also further cleaned with the dataframe containing only numerical data.
@@ -22,6 +24,6 @@ All models could be further fine tuned with better hyperparameters and or stacki
 Based on the perfomance metrics the Gradient Boosting Regressor was used for predictions
 
 Created Classifier model and set eraly stopping as true in order to prevent overfitting, model hyperparmeters wer also fine tuned after being evaluated using accuracy
-
+# Milestone 5
 Developed neural network regressor model and fine tuned model using learning rate, layer width of neural network, model depth and the chosen optimiser. 
 Training runs were monitored and observed using Tensorboard. 
