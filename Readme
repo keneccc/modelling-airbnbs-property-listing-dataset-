@@ -1,4 +1,4 @@
-#Milestones 1  
+# Milestones 1  
 
 Cleaned csv tabular data table 
 Converted CSV data to pandas data framed. Cleaned Tabular data by removing all Nan values from all relevant clomuns 
