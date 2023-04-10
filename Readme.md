@@ -27,3 +27,13 @@ Created Classifier model and set eraly stopping as true in order to prevent over
 # Milestone 5
 Developed neural network regressor model and fine tuned model using learning rate, layer width of neural network, model depth and the chosen optimiser. 
 Training runs were monitored and observed using Tensorboard. 
+
+# Conclusions
+Developing machine learning models to predict nightly prices. Cleaned and preprocessed both tabular and image data, and have split your data into training, testing, and validation sets. Fine-tuned multiple regression models and a neural network regressor model to achieve the best performance possible.
+In order to measure the accuracy of models, used the root mean squared error (RMSE) performance metric and have saved the best models along with their hyperparameters in json and joblib files. Used Tensorboard to monitor and observe the training runs of neural network model.
+ 
+ # Future Enhancements 
+ Further hyperparameter tuning, stacking and blending of models, or exploring different architectures for neural network. 
+ It's also important to consider the potential impact of predictions and ensure that they are used ethically and responsibly.
+ 
+ 
